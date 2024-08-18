@@ -1,0 +1,56 @@
+.homepage {
+  display: flex;
+  margin-left: 20px;
+  height: calc(100vh - 60px); /* Adjust based on header height */
+  background: url('../../assets/Home.png');
+}
+
+.overlay {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 25%;
+  color: white;
+}
+
+.overlay h1 {
+  font-size: 4.5rem;
+  margin-bottom: 20px;
+  color: #AB0E1E;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.make-report {
+  background-color: #AB0E1E;
+  color: white;
+}
+
+.track-report {
+  background-color: #000000;
+  color: white;
+}
+
+.buttons button:hover {
+  opacity: 0.8;
+}
+
+

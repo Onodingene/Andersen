@@ -1,0 +1,58 @@
+/* Styles for the UserTrack component */
+
+.track-form-container {
+  align-items: left;
+  padding: 50px;
+  min-height: 100vh;
+}
+
+.track-form-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #AB0E1E;
+}
+
+.track-form-container img{
+  width: 60px;
+  height:70px;
+  float: left;
+}
+
+.track-form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+#left {
+  float: left;
+  width: 50%;
+}
+
+.track-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.track-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: red; /* Changed color to red */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.track-form button:hover {
+  opacity: 0.8;
+}

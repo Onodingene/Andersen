@@ -1,0 +1,44 @@
+.report-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.report-image {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.report-content {
+    max-width: 600px;
+    text-align: center;
+}
+
+.report-content h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.check-icon {
+    color: green;
+}
+
+.report-content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.report-content strong {
+    color: #333;
+}

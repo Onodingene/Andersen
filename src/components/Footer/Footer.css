@@ -1,0 +1,37 @@
+/* Footer Styles */
+.footer {
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    padding: 00px;
+    display: flex;
+    height: 10%;
+    justify-content: space-around;
+  }
+  
+  .footer .column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .footer .column h3 {
+    margin: 0;
+  }
+  
+  .footer .column a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .footer .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer .social-icons a {
+    color: white;
+    font-size: 24px;
+  }
+  

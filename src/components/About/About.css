@@ -1,0 +1,112 @@
+/* About.css */
+
+.about {
+  padding: 20px;
+}
+
+.aboutandersen {
+  background-color: black;
+  color: white;
+  padding-left: 30px;
+  text-align: left;
+  height:50px;
+}
+
+.aboutandersen h1 {
+  margin: 0;
+  font-size: 24px;
+  justify-content: left;
+}
+
+.about-every{
+  display: flex; 
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.about-section p {
+  background-color: white;
+  color:#AB0E1E;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  width: 240px;
+  height: 350px;
+}
+
+.about-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: auto auto ;
+  gap: 0px;
+
+}
+
+.feature:nth-child(1) {
+  background-color: white;
+}
+
+.feature:nth-child(2) {
+  background-color:#D9D9D9 ; 
+}
+
+.feature:nth-child(3) {
+  background-color: #D9D9D9; 
+}
+
+.feature:nth-child(4) {
+  background-color: white; 
+}
+
+.option h3 {
+  margin-top: 0;
+}
+
+.feature {
+  background-color: #f0f0f0;
+  flex: 1 1 calc(50% - 10px);
+  min-width: 200px;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.feature h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+
+.how-it-works {
+  margin-top: 40px;
+  background-color: #AB0E1E;
+  color: white;
+}
+
+.how-it-works h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.step {
+  flex: 1 1 calc(33% - 20px);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.step h3 {
+  margin: 0;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 16px;
+  line-height: 1.4;
+}

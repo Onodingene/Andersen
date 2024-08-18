@@ -1,0 +1,72 @@
+/* ReportOptions.css */
+.report{
+  display: flex;
+}
+
+.like-report{
+  background-color: #0c0c0c;
+  text-align: center;
+  color: white;
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+}
+
+.report-options {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #0c0c0c;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-image {
+    width: 600px;
+    height: 300px;
+    margin-right: 0px;
+  }
+  
+  .options-grid {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+  }
+  
+  .option {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+
+  .option:nth-child(1) {
+    background-color: white;
+  }
+  
+  .option:nth-child(2) {
+    background-color: #D9D9D9; 
+  }
+  
+  .option:nth-child(3) {
+    background-color: #AB0E1E; 
+  }
+  
+  .option:nth-child(4) {
+    background-color: white; 
+  }
+  
+  .option h3 {
+    margin-top: 0;
+  }
+  
+  .option p {
+    margin-bottom: 0;
+  }
+  

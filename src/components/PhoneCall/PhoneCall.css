@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+.header-pics{
+  width:1000px;
+  height:50%;
+}
+
+  .words{
+    font-size: large;
+    text-align: center;
+    background-color: #AB0E1E;
+    padding: 100px;
+    border-radius: 0px;
+    color: white;
+  }

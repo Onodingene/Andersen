@@ -1,0 +1,59 @@
+/* LocationPage.css */
+.location-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color:#AB0E1E;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #left{
+    width:80%;
+    height:80%;
+  }
+  .location-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .location-container {
+    background-color: #a00000; /* Dark Red background color */
+    color: white; /* White text color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    height:80%;
+    width: 80%;
+  }
+  
+  .locate{
+    color: white;
+  }
+
+  .location-text {
+    font-size: 24px;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
